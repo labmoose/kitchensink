@@ -6,7 +6,7 @@ v_peep <- c("you", "your significant other", "you", "your friend", "you",
          "a family member", "you", "a coworker", "you")
 
 # Vector of verbs for prediction for SELF
-v_self <- c("will", "are bound to", "are going to", "are fated to", "will feel inclined to", "are compelled to")
+v_self <- c("will", "are bound to", "are going to", "are fated to", "will feel inclined to", "will be compelled to")
 # Vector of verbs for prediction for OTHER
 v_other <- c("will", "is bound to", "is going to", "is fated to", "will feel inclined to", "will be compelled to")
 
