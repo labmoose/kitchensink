@@ -25,7 +25,7 @@ v_B <- c("a revolution", "a political movement", "a fitness routine", "a career"
          "a religious revival", "a television series", "a trilogy", "some productive discourse", "an intense debate",
          "a gaming system", "a program", "a scientific discovery", "an indisputable truth", "a fruitless discussion",
          "some playful banter", "some dedicated charity work", "a serious relationship", "a drawn out battle", "some light flirting",
-         "a entirely new way of thinking", "a revolutionary discovery", "a possible cure", "a long internet tirade",
+         "an entirely new way of thinking", "a revolutionary discovery", "a possible cure", "a long internet tirade",
          "some rather lengthy training")
 
 # vector of joiners
