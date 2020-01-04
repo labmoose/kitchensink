@@ -11,9 +11,9 @@ v_self <- c("will", "are bound to", "are going to", "are fated to", "will feel i
 v_other <- c("will", "is bound to", "is going to", "is fated to", "will feel inclined to", "will be compelled to")
 
 # vector of prediction part A
-v_A <- c("accomplish", "obtain", "create", "enact", "complete", 
-         "solve", "endure", "survive", "invent", "quit",
-         "begin", "prepare", "share", "bury", "join", 
+v_A <- c("accomplish", "discover", "create", "enact", "complete", 
+         "be active in", "document", "survive", "invent", "quit",
+         "begin work on", "prepare for", "share", "bury", "join", 
          "write about")
 
 
@@ -23,14 +23,14 @@ v_B <- c("a revolution", "a political movement", "a fitness routine", "a career"
          "a writing project", "a psychic connection", "all out war", "a peaceful discussion", "a workshop",
          "an artistic endevor", "a partnership", "a real brain trust", "an exclusive group that's definitely not a cult",
          "a religious revival", "a television series", "a trilogy", "some productive discourse", "an intense debate",
-         "a gaming system", "a program", "a scientific discovery", "an indisputable truth", "a fruitless discussion",
+         "a gaming system", "a program", "a scientific revelation", "an indisputable truth", "a fruitless discussion",
          "some playful banter", "some dedicated charity work", "a serious relationship", "a drawn out battle", "some light flirting",
-         "an entirely new way of thinking", "a revolutionary discovery", "a possible cure", "a long internet tirade",
+         "an entirely new way of thinking", "a revolutionary breakthrough", "a possible cure", "a long internet tirade",
          "some rather lengthy training")
 
 # vector of joiners
 v_join <- c("with", "about", "with", "for", "with",
-            "opposing", "involving", "about", "that revolves around", "for",
+            "with the help of", "involving", "about", "that revolves around", "for",
             "using", "with", "on")
 
 # vector of random endings
@@ -59,7 +59,7 @@ v_end <- c("a complete stranger", "an obnoxious politician", "a herd of cats", "
            "The Warner Brothers and their sister, Dot", "Chris Hemsworth, currently being played by the Norse god Thor", 
            "that girl at the bar who thinks shots of Fireball whiskey is where it's at", "a lonely Mars rover",
            "war, huh, good god, what is it good for?", "Gordon Ramsey's new book on positive reinforcement methods",
-           "Tiamat", "an army of the undead", "a herd of fainting goats", "an up-and-coming K-pop group")
+           "Tiamat, the real mother of dragons", "an army of the undead", "a herd of fainting goats", "an up-and-coming K-pop group")
 
 # sample v_pred to start the prediction line
 pred <- sample(v_pred, 1, replace = TRUE)
